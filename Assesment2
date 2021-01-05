@@ -1,0 +1,28 @@
+###
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+* * * * 
+* * * 
+* * 
+* 
+###
+
+for i in range (11):
+	if (i > 5):
+		i = 10-i;
+		for j in range (i+1):
+			print ('*',end='')
+		print()
+	else :
+		for j in range (i+1):
+			print ('*',end='')
+		print()
+
+
+# Write a Python program to reverse a word after accepting the input from the user. 
+
+input_word = input("Please enter input word : ")
+print(input_word[::-1]) 
